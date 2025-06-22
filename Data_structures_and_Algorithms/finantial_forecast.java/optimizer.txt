@@ -1,0 +1,13 @@
+ Time Complexity
+Each recursive call reduces periodsLeft by 1:
+Time complexity: O(n)
+where n = periodsLeft.
+
+This is because the recursion runs once for each period.
+
+How to optimize?
+For this simple case:
+
+Recursion is fine, as it is linear in depth.
+
+But recursion adds function call overhead — iterative or direct formula is better.

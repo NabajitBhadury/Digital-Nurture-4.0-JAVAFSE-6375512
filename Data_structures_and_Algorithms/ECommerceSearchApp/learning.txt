@@ -1,0 +1,15 @@
+Big O Notation & Search Scenarios
+What is Big O Notation?
+Big O notation describes the time complexity (or space complexity) of an algorithm as a function of input size n. It provides an upper bound on the growth rate of the runtime as the input size increases.
+
+Why is it useful?
+
+It helps predict how an algorithm will scale.
+
+It allows you to compare different algorithms objectively, independent of hardware or implementation details.
+
+Best, Average, and Worst Case in Search
+Case	Linear Search	Binary Search
+Best case	O(1) — first element matches	O(1) — middle element matches
+Average case	O(n) — match near middle	O(log n)
+Worst case	O(n) — last element or not found	O(log n) — not found after log n steps

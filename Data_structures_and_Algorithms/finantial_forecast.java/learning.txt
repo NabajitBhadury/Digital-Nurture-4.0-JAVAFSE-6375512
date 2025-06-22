@@ -1,0 +1,19 @@
+ Understand Recursive Algorithms
+What is recursion?
+Recursion is when a method calls itself to solve a smaller part of the problem.
+
+It simplifies problems that can be broken into similar subproblems.
+
+Example:
+To compute factorial(n), we can define:
+
+matlab
+Copy
+Edit
+factorial(n) = n * factorial(n - 1)
+until factorial(0) = 1 (the base case).
+
+Why is recursion useful?
+Breaks complex problems into smaller subproblems
+Leads to simpler and cleaner code
+Matches mathematical definitions naturally (e.g., growth models)
