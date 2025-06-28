@@ -1,0 +1,25 @@
+JUnit Test Results Report
+========================
+Date: June 28, 2025
+
+Test Execution Summary:
+---------------------
+1. testDivisionByZero() - PASSED
+2. testDivision() - PASSED
+3. testMultiplication() - PASSED
+4. testAddition() - PASSED
+5. testSubtraction() - PASSED
+
+Total Tests: 5
+Passed: 5
+Failed: 0
+Time: 0.011 seconds
+
+Test Details:
+------------
+- All arithmetic operations (addition, subtraction, multiplication, division) were tested successfully
+- Edge case for division by zero was handled correctly
+- Tests included positive numbers, negative numbers, and zero values
+- All assertions passed without any errors
+
+Status: ALL TESTS PASSED ✓ 
