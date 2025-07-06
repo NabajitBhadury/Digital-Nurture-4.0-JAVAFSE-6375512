@@ -1,0 +1,41 @@
+=== Library Management System Output ===
+Execution started at: 2025-07-05 19:03:34
+
+=== Library Management System ===
+Loading Spring Application Context...
+Spring context loaded successfully!
+Testing Library Management Operations:
+
+BookService: Library Statistics - Total Books: 4
+
+BookService: Displaying all books in the library:
+BookService: Fetching all books...
+1. The Great Gatsby
+2. To Kill a Mockingbird
+3. 1984
+4. Pride and Prejudice
+
+BookService: Searching for book '1984'...
+BookService: Book '1984' found in the library
+
+BookService: Searching for book 'Harry Potter'...
+BookService: Book 'Harry Potter' not found in the library
+
+Book added: The Catcher in the Rye
+BookService: Successfully added book 'The Catcher in the Rye'
+
+BookService: Book '1984' already exists in the library
+
+BookService: Library Statistics - Total Books: 5
+
+BookService: Displaying all books in the library:
+BookService: Fetching all books...
+1. The Great Gatsby
+2. To Kill a Mockingbird
+3. 1984
+4. Pride and Prejudice
+5. The Catcher in the Rye
+
+=== Spring Configuration Test Completed ===
+
+Execution completed at: 2025-07-05 19:03:35
