@@ -1,0 +1,97 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cohorts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.cohort-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s ease-in-out;
+  width: 100%;
+  max-width: 20rem;
+  flex-shrink: 0;
+}
+
+@media (min-width: 640px) {
+  .cohort-card {
+    width: 20rem;
+  }
+}
+@media (min-width: 768px) {
+  .cohort-card {
+    width: 24rem;
+  }
+}
+
+.cohort-card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.cohort-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.title-java {
+  color: #166534;
+}
+
+.title-dot-net {
+  color: #1e40af;
+}
+
+.cohort-details {
+  color: #374151;
+  line-height: 1.5;
+}
+
+.cohort-details p {
+    margin-bottom: 0.5rem;
+}
+
+.detail-label {
+  font-weight: 600;
+}
+
+.detail-value {
+  font-weight: 500;
+}
+
+.status-scheduled {
+  color: #2563eb;
+}
+
+.status-ongoing {
+  color: #16a34a;
+}

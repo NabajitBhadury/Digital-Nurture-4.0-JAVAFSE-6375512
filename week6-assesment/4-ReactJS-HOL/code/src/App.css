@@ -1,0 +1,14 @@
+.App {
+  color: white;
+  background-color: #282c34;
+}
+
+.posts-header {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+body {
+  background-color: #282c34;
+}

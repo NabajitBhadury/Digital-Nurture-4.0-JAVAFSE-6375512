@@ -1,0 +1,17 @@
+.posts {
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.postsList {
+  list-style: none;
+  padding: 0;
+}
+
+.postsList li {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
