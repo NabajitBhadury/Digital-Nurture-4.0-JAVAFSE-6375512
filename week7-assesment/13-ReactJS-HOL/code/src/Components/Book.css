@@ -1,0 +1,21 @@
+.itemCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: start;
+  transition: background-color 0.3s ease;
+
+  min-height: 350px;
+  min-width: 350px;
+
+}
+
+.itemCard:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+

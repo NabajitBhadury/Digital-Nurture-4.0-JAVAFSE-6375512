@@ -1,0 +1,27 @@
+
+
+.office {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.rent {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.address {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.textGreen {
+  color: green;
+}
+
+.textRed {
+  color: red;
+}
